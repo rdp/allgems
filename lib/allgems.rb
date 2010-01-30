@@ -1,5 +1,7 @@
 require 'logger'
 require 'allgems/Exceptions'
+require 'splib'
+Splib.load(:all)
 module AllGems
     class << self
         # This is a utility hack for me so I don't have to add in stuff
